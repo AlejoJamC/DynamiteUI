@@ -1,5 +1,5 @@
 {
-  "name": "DynamiteUI",
+  "name": "MoonUI",
   "version": "0.1.0",
   "description": "Document Management System (DMS) (User Interface)",
   "main": "server.js",
@@ -16,14 +16,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://AlejoJamC@github.com/AlejoJamC/DynamiteUI.git"
+    "url": "git+https://github.com/AlejoJamC/MoonUI.git"
   },
   "author": "Alejandro Mantilla <@AlejoJamC>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/AlejoJamC/DynamiteUI/issues"
+    "url": "https://github.com/AlejoJamC/MoonUI/issues"
   },
-  "homepage": "https://github.com/AlejoJamC/DynamiteUI#readme",
+  "homepage": "https://github.com/AlejoJamC/MoonUI#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
     "cookie-parser": "^1.4.3",
