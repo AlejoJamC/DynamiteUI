@@ -32,6 +32,7 @@ landingRouter.get('/', function (req, res) {
     res.render('landing/index', {
         title   : 'Software de recursos humanos para la pequeña y mediana empresa | Moon HR',
         level   : '../',
+        isHome : true,
         layout  : 'landing/struct',
         error   : error
     });
@@ -54,7 +55,7 @@ landingRouter.get('/contact', function (req, res) {
     // User Rol
     // If ............
     res.render('landing/contact', {
-        title   : 'Software de recursos humanos para la pequeña y mediana empresa | Moon HR',
+        title   : 'Contacto | Moon HR',
         level   : '../',
         layout  : 'landing/struct',
         error   : error
@@ -78,8 +79,9 @@ landingRouter.get('/help', function (req, res) {
     // User Rol
     // If ............
     res.render('landing/help', {
-        title   : 'Software de recursos humanos para la pequeña y mediana empresa | Moon HR',
+        title   : 'Ayuda | Moon HR',
         level   : '../',
+        isHome : false,
         layout  : 'landing/struct',
         error   : error
     });
@@ -102,8 +104,9 @@ landingRouter.get('/pricing', function (req, res) {
     // User Rol
     // If ............
     res.render('landing/pricing', {
-        title   : 'Software de recursos humanos para la pequeña y mediana empresa | Moon HR',
+        title   : 'Planes | Moon HR',
         level   : '../',
+        isHome : false,
         layout  : 'landing/struct',
         error   : error
     });
@@ -126,8 +129,9 @@ landingRouter.get('/privacy', function (req, res) {
     // User Rol
     // If ............
     res.render('landing/privacy', {
-        title   : 'Software de recursos humanos para la pequeña y mediana empresa | Moon HR',
+        title   : 'Politicas de privacidad | Moon HR',
         level   : '../',
+        isHome : false,
         layout  : 'landing/struct',
         error   : error
     });
@@ -150,8 +154,9 @@ landingRouter.get('/sitemap', function (req, res) {
     // User Rol
     // If ............
     res.render('landing/sitemap', {
-        title   : 'Software de recursos humanos para la pequeña y mediana empresa | Moon HR',
+        title   : 'Mapa del sitio | Moon HR',
         level   : '../',
+        isHome : false,
         layout  : 'landing/struct',
         error   : error
     });
@@ -174,8 +179,9 @@ landingRouter.get('/terms', function (req, res) {
     // User Rol
     // If ............
     res.render('landing/terms', {
-        title   : 'Software de recursos humanos para la pequeña y mediana empresa | Moon HR',
+        title   : 'Terminos y condiciones | Moon HR',
         level   : '../',
+        isHome : false,
         layout  : 'landing/struct',
         error   : error
     });
