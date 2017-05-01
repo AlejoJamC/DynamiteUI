@@ -30,9 +30,7 @@ jspm_packages
 # You can buy it on themeforest
 # http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469
 
-public/css/
-public/img/
-public/fonts/
-public/js/
+public/landing/
+public/dashboard/
 public/favicons/
 *.html

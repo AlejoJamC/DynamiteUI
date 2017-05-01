@@ -76,7 +76,10 @@ app.use(bodyParser.urlencoded({
 }));
 
 // Import static files.
-app.use(express.static(path.join(__dirname, 'public')));
+// Landing files
+app.use(express.static(path.join(__dirname, 'public', 'landing')));
+// Dashboard files
+app.use(express.static(path.join(__dirname, 'public','dashboard')));
 
 // Coockies
 app.use(coockieParser());
