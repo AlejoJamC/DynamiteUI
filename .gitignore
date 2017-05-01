@@ -1,6 +1,9 @@
 # Webstorm config
 .idea/
 
+# Config file
+.env
+
 # Logs
 *.log
 npm-debug.log*
@@ -18,20 +21,18 @@ jspm_packages
 # Optional npm cache directory
 .npm
 
-# Public
-# Premium Template Metronic
+# Public Content
+# Premium Template Foundry - Landing
+# You can buy it on themeforest
+# http://themeforest.net/item/foundry-multipurpose-html-variant-page-builder/11562108
+
+# Premium Template Metronic - Dashboard
 # You can buy it on themeforest
 # http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469
+
 public/css/
 public/img/
-public/landing/
-public/landing/css/
-public/landing/fonts/
-public/landing/img/
-public/landing/js/
-public/landing/video/
-public/media/
-public/plugins/
-public/scripts/
-public/favicon.ico
+public/fonts/
+public/js/
+public/favicons/
 *.html
