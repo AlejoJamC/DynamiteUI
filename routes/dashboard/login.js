@@ -31,7 +31,7 @@ loginRouter.get('/login', function (req, res) {
     res.render('dashboard/login', {
         title   : 'Login | Moon HR',
         level   : '',
-        layout  : 'dashboard/mainStruct',
+        layout  : 'dashboard/loginStruct',
         error   : error
     });
 });
