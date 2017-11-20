@@ -60,3 +60,6 @@ typings/
 
 # IDE
 .idea/
+
+src/assets/
+src/app/

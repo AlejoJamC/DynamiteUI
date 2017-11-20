@@ -2,6 +2,6 @@
 Document Management System (DMS) (User Interface)
 
 
-## Instalation 
+## Installation 
 Todo
 
