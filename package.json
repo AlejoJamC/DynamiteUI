@@ -1,29 +1,41 @@
 {
-    "name": "MoonUI",
-    "version": "1.5.1",
-    "license": "BSD-3-Clause",
-    "keywords": [
-        "expressjs",
-        "nodejs",
-        "rackspace",
-        "cloudfiles",
-        "files",
-        "dms",
-        "frontend",
-        "ui"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/AlejoJamC/MoonUI.git"
-    },
-    "author": "Alejandro Mantilla <@AlejoJamC>",
-    "bugs": {
-        "url": "https://github.com/AlejoJamC/MoonUI/issues"
-    },
-    "homepage": "https://github.com/AlejoJamC/MoonUI#readme",
-    "scripts": {
-        "start": "nodemon server.js -L"
-    },
-    "dependencies": {
-    }
+  "name": "MoonUI",
+  "version": "1.5.1",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "rackspace",
+    "cloudfiles",
+    "files",
+    "dms",
+    "frontend",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejoJamC/MoonUI.git"
+  },
+  "author": "Alejandro Mantilla <@AlejoJamC>",
+  "bugs": {
+    "url": "https://github.com/AlejoJamC/MoonUI/issues"
+  },
+  "homepage": "https://github.com/AlejoJamC/MoonUI#readme",
+  "scripts": {
+    "start": "nodemon server.js -L"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-hbs": "^1.0.4",
+    "formidable": "^1.1.1",
+    "handlebars": "^4.0.11",
+    "method-override": "^2.3.10",
+    "moment": "^2.19.3",
+    "passport": "^0.4.0",
+    "request": "^2.83.0",
+    "serve-favicon": "^2.4.5",
+    "winston": "^2.4.0"
+  }
 }
